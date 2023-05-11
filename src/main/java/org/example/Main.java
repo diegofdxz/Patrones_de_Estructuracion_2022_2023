@@ -8,7 +8,7 @@ import org.example.Kit.Kit;
 
 public class Main {
     public static void main(String[] args) {
-
-        Menu.Menu();
+        Menu menu = new Menu();
+        menu.Menu();
     }
 }
